@@ -1,0 +1,36 @@
+VERSION="2.0.0"
+FEDERATION_SERVER="https://stellarid.io/federation/"
+
+
+
+
+ACCOUNTS=[
+"GAHOVX34KDN2VEXVBTVKKBN57MDZSBCQFFSN7K6AXWVJDL6AZNM3MTZG",
+"GDGGIT3AXOQ25CCRECFJZQRHAXBSOBRTQ4C3XFCDPO3Q6MLM4M23S7TE"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Sword & Shield"
+ORG_LOGO="https://i.ibb.co/k5vP9xV/photo-2021-10-10-09-08-57-removebg-preview.png"
+ORG_DESCRIPTION="Our “SWS” token works on the Stellar blockchain. We have done our best to create this ultimate coin. One of the specific functions of “SWS” is protection and complete anonymity that helps to keep information of our customers in secret.. Our protection system not only reflects the attacks of all-round owners, but also has the possibility to develop itself via analyzing new information of attack results."
+ORG_PHYSICAL_ADDRESS="3770 S University Center Dr, Las Vegas, NV 89119"
+ORG_PHONE_NUMBER="+1 702-734-6788"
+ORG_KEYBASE="Magofox"
+ORG_OFFICIAL_EMAIL="eratouch@gmail.com"
+
+[[CURRENCIES]]
+code="SWS"
+issuer="GAHOVX34KDN2VEXVBTVKKBN57MDZSBCQFFSN7K6AXWVJDL6AZNM3MTZG"
+display_decimals= 6
+is_asset_anchored=false
+name="Sword & Shield"
+desc="Our “SWS” token works on the Stellar blockchain. We have done our best to create this ultimate coin. One of the specific functions of “SWS” is protection and complete anonymity that helps to keep information of our customers in secret.. Our protection system not only reflects the attacks of all-round owners, but also has the possibility to develop itself via analyzing new information of attack results."
+conditions="There will be 1000000000 now and forever"
+image="https://i.ibb.co/k5vP9xV/photo-2021-10-10-09-08-57-removebg-preview.png" 
+# sword&shield (SWORD&Shield) Token was issued using the open and inclusive Stellar blockchain network.
+# Home Domain: eratouch.com
+# Sword&Shield Token
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"

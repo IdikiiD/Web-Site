@@ -1,0 +1,16 @@
+[build]
+  functions = "functions"
+  # This will be run the site build
+  command = "npm run build"
+  # This is the directory is publishing to netlify's CDN
+  publish = "build"
+
+[dev]
+  # Local dev command. A.k.a npm start
+  command = "react-scripts start"
+
+[functions]
+  node_bundler = "esbuild"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
